@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+    <script language="javascript">
+    function changement(){
+     var lumiere=document.getElementById("ampoule");
+     if (lumiere.src=="http://www.iut-fbleau.fr/sitebp/web/wim11/js/off.png") {
+    lumiere.src="http://www.iut-fbleau.fr/sitebp/web/wim11/js/on.png";
+     } 
+      else {
+    lumiere.src="http://www.iut-fbleau.fr/sitebp/web/wim11/js/off.png"
+} 
+    }
+    </script>
+    <style type="text/css">
+    img{height: 200px;margin: 5px;box-shadow: 10px 10px 5px #888888;}
+    </style>
+    <meta charset="UTF-8" />
+		<title>Ampoule</title>
+	</head>
+ <body>
+   <div>
+     <img id="ampoule" src="http://www.iut-fbleau.fr/sitebp/web/wim11/js/on.png" alt="" onclick="changement()"
+    </div>
+</body>
+</html>
+  
